@@ -164,5 +164,27 @@ main{
 
 /* Sezione 2 */
 
-.container
+.section{
+    background-color: #AB82FF;
+}
 
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    background-color: red;
+}
+
+.sub-container{
+    flex: calc(100% / 2);
+    padding: 1rem 0.5rem;
+    background-color: aqua;
+    border: 1px solid black;
+    
+}
+
+.img-sub-container{
+    width: 50%;
+   
+
+}
