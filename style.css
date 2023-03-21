@@ -51,18 +51,18 @@ header{
 /* Sezione 1 - Jumbo */
 
 main{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .jumbo{
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
-    padding-bottom: 5rem;
 }
 
 .border{
     --gapx: 1rem;
     --gapy: 1rem;
+    padding-bottom: 5rem;
 }
 
 .cells{
@@ -79,8 +79,11 @@ main{
     margin-inline:1%;
     margin-bottom: 2%;
     background-color: 	#87cefad1;
-    height: 300px;
+    height: 280px;
     border-radius: 15px;
+}
+
+.texting{
     text-align: center;
 }
 
@@ -95,8 +98,7 @@ main{
 
 .content{
     display: flex;
-    padding-right: 3rem;
-    
+    padding-right: 3rem;   
 }
 
 
@@ -137,7 +139,7 @@ main{
 
 .phone{
     width: 36%;
-    padding-top: 4rem;
+    padding-top: 4.3rem;
 }
 
 
@@ -146,7 +148,6 @@ main{
 .list-single{
     padding-top: 0.5rem;
 }
-
 
 .icona{
     font-size: 65px;
@@ -166,8 +167,11 @@ main{
 
 /* Sezione 2 */
 
+/* Sezione Viola - Sinistra */
+
 .section{
     background-color: 	#826fffce;
+
 }
 
 .container{
@@ -199,8 +203,6 @@ main{
     margin-bottom: 2rem;
 }
 
-
-
 .img-sub-container{
     width: 100%;
 }
@@ -216,11 +218,12 @@ main{
 }
 
 .strategic-text{
-  padding-left: 1.5rem;
-  padding-right: 1rem;  
+    padding-left: 1.5rem;
+    padding-right: 1rem; 
 }
 
 
+/* Sezione Interna Bianca - Destra */
 
 .right{
     padding-top: 16rem;
@@ -232,7 +235,6 @@ main{
     padding-inline: 0.5rem;
     text-align: center;
     margin-inline: 2.5rem;
-
 }
 
 .img-right{
@@ -253,10 +255,267 @@ main{
     padding-inline:0.5rem;
 }
 
-
 .fa-arrow-down-long{
+    width: 45px;
+    height: 45px;
     padding: 1rem;
     background-color: #826fffce;
     border-radius: 100%;
     margin: 1.4rem;
+    object-fit: cover;
+}
+
+
+/* Sezione 3 */
+
+
+/* Testata */
+
+.testimonial{
+    margin-top: 3rem;
+    padding-inline: 6rem;
+}
+
+.testata{
+    text-align: center;
+    color: black;
+}
+
+.alone{
+    font-size: 12px;
+}
+
+.title{
+    font-size: 32px;
+    text-align: center;  
+}
+
+.center{
+    color: #826fffce;
+}
+
+
+.list-testata{
+    margin-bottom: 1.5rem;
+}
+
+/* Parte centrale */
+
+.center{
+    margin-top: 3rem;
+}
+
+.element{
+    background-color:#826fffce;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.img-testimonial{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    padding: 0.5rem;
+    object-fit: cover;
+    margin-top: 0.5rem;
+}
+
+.list-testimonial{
+    text-align: start;
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5;
+    font-size: 14.5px;
+    color: white;
+}
+
+.point-testimonial{
+    padding-top: 1.2rem;
+}
+
+.virgo{
+    font-size: 30px;
+}
+
+/* Sezione 4 */
+
+.third-container{
+    padding-top: 3rem;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: #826fffce;
+    text-align: left;
+    height: 340px; 
+}
+
+.point-cell-white{
+    margin: 1.5rem;
+}
+
+.title-number{
+    font-size: 55px;
+    margin-bottom: -1rem;
+    
+}
+
+.title-working{
+    font-size: 18px;
+}
+
+.vitae{
+    line-height: 1.8;
+    color: black;
+    font-size: 12.5px;
+}
+
+.more{
+    background-color: #826fffce; 
+    font-size: 12px; 
+    padding-inline: 2.5rem;
+}
+
+
+/* Sezione 5 */
+
+.About-Us-container{
+    display: flex;
+    flex-direction: row; 
+}
+
+/* Sub-container */
+
+.about-sub-container{
+    width: 80%;
+    height: 470px;
+    padding-inline: 1rem;
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-bottom: 11rem;
+    
+}
+
+.title-about{
+    font-size: 55px;
+    color: #826fffce;
+    padding-inline: 1rem;
+}
+
+.p-link{
+    line-height: 2.5;
+    padding-inline: 1rem ;
+}
+
+/* Sub-container 2 */
+
+.sub-container-2{
+    width: 30%;
+    margin-top: 4rem;
+    padding-inline: 1rem;
+}
+
+.img-about{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.title-link{
+    font-size: 22px;
+    line-height: 1.4;
+    color: #826fffce;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.button-link{
+    padding-inline: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    font-size: 12px;
+    background-color: #826fffce;
+    border-radius: 22px;
+    color: white;
+}
+
+/* Sezione 6 */
+
+.list-points{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.points{
+    margin: 1.5rem;
+}
+
+.p1{
+    color:rgb(202, 202, 202);
+}
+
+.p2{
+    font-size: 25px;
+    color: white;
+}
+
+.p3{
+    font-size: 55px;
+    color: 	#EEC900 ;
+}
+
+.p4{
+    color: white;
+    padding-inline: 15rem;
+    line-height: 2.5;
+}
+
+.button-point{
+    font-size: 15px;
+    padding-inline: 4.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: white;
+    font-weight: 600;
+    color: #826fffce;
+    border-radius: 45px;
+    border: 0;
+}
+
+.p5{
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    display: inline;
+}
+
+.punto{
+    position: relative;
+    bottom: 3px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.bi-circle-fill{
+    margin: 0.5rem;
+   
+}
+
+/* Footer */
+
+.section-black{
+    background-color: rgba(0, 0, 0, 0.851);
+    height: 8rem;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    font-size: 11px;
 }
