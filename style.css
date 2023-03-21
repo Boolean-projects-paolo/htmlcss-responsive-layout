@@ -17,7 +17,7 @@ header{
 }
 
 .head{
-    max-width: 1000px;
+    max-width: 920px;
     height: 4rem;
     margin-inline: auto;
     display: flex;
@@ -25,6 +25,11 @@ header{
     align-items: center;
     color: white;
    
+}
+
+.logo{
+    padding: 1rem;
+    height: 65px;
 }
 
 .head-list{
@@ -273,7 +278,7 @@ main{
 
 .testimonial{
     margin-top: 3rem;
-    padding-inline: 6rem;
+    padding-inline: 5rem;
 }
 
 .testata{
@@ -353,6 +358,7 @@ main{
 .third-container{
     padding-top: 3rem;
     color: white;
+    padding-bottom: 2rem;
 }
 
 .white{
@@ -434,7 +440,7 @@ main{
 }
 
 .big{
-    font-size: 45px;
+    font-size: 65px;
     color: #826fffce;
     position: relative;
     left:9rem;
@@ -445,7 +451,7 @@ main{
     font-size: 22px;
     line-height: 1.4;
     color: #826fffce;
-    margin-top: -2rem;
+    margin-top: -3rem;
     margin-bottom: 1rem;
     
 }
