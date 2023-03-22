@@ -534,9 +534,22 @@ main{
 
 .section-black{
     background-color: rgba(0, 0, 0, 0.851);
-    height: 8rem;
-    text-align: center;
+    height: 9rem;
     color: white;
-    padding-top: 2rem;
     font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ultimo{
+    margin-top: 2rem;
+    max-width: 280px;
+
+}
+
+.ulti{
+    color: #826fffce;
 }

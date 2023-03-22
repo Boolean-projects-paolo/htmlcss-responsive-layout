@@ -1,12 +1,24 @@
 @media screen and (max-width: 768px){
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        html{
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+
         .head{
             max-width: 768px;
-            padding-inline: 2rem;
-            
+            padding-inline: 2rem; 
         }
 
         .head-list{
-            display: none ;
+            display: none;
         }
 
         /* Celle */
@@ -105,20 +117,245 @@
 
 
 
+        .about-us{
+            height: 1100px;
+        }
+
         .About-Us-container{
-            padding-right: 4rem;
+            padding-right: 3rem;
         }
 
         .p-link{
             font-size: 18px;
         }
 
+        .p1{
+            font-size: 18px;
+        }
+
+        .p2{
+            font-size: 30px;
+        }
+
+        .p3{
+            font-size: 45px;
+        }
+
+        .p4{
+            margin-inline: -2rem;
+        }
+
+        .p5{
+            text-align: center;
+        }
 
 
+        .section-black{
+            height: 9rem;
+            font-size: 12px;
+        }
 
+        .semi-ultimo{
+            padding-inline: 13rem;
+        }
 
-
+        .ultimo{
+           
+        }
+  
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+
+        .head{
+            width: 100%;
+        }
+
+        .max-container{
+            width: 100%;
+        }
+
+
+        .cells{
+            display: flex;
+            flex-direction: column;
+            padding-inline: 6rem;
+        }
+
+        .cell{
+            margin-bottom: 1.5rem;
+        }
+
+        .phone{
+            width: 110%;
+            margin-bottom: -1rem;
+        }
+
+
+
+
+        .planning-title{
+            font-size: 25px;
+        }
+
+        .strategic-text{
+            font-size: 20px;
+        }
+
+
+        .intern-container{
+            padding-inline: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .img-right{
+            width: 120%;
+            padding-left: 0.5rem;
+            margin-left: -1rem; 
+        }
+
+        .app-title{
+            font-size: 22px;
+        }
+
+        .text-developer{
+            font-size: 18px;
+            font-weight:lighter;
+        }
+
+
+
+
+        .alone{
+            font-size: 18px ;
+        }
+        
+        .h1{
+            margin-inline: -2rem;
+        }
+
+        .text-testata{
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+
+
+
+        .center{
+            padding-inline: 2rem;
+        }
+
+        .element{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding-inline: 2rem;
+        }
+
+        .point-testimonial{
+            text-align: center;
+        }
+
+
+
+        .white{
+            width: 100%;
+        }
+
+        .title-number{
+            font-size: 55px;
+        }
+        
+        .title-working{
+            font-size: 25px;
+        }
+
+        .vitae{
+            font-size: 18px;
+        }
+
+        .more{
+            padding-inline: 3rem;
+        }
+
+
+
+        .about-us{
+            height: 1800px;
+        }
+
+        
+        .About-Us-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-inline: -4rem;
+        }
+
+
+
+        .sub-container-2{
+            width: 80%;
+            position: relative;
+            top: 26rem;
+            left: 2rem;
+        }
+
+        .title-link{
+            font-size: 35px;
+        }
+
+        .button-link{
+            font-size: 20px;
+            padding-inline:1.5rem;
+        }
+
+
+        .p1{
+            font-size: 20px;
+        }
+
+        .p4{
+            font-size: 16px;
+            margin-inline: -10rem;
+            line-height: 1.5;
+        }
+
+        .button-point{
+            font-size: 18px;
+            padding-inline: 5rem;
+        }
+
+        .paragrafo-5{
+            font-size: 18px;
+            text-align: center;
+            padding-inline: 2rem;
+        }
+
+
+        .section-black{
+            height: 18rem;
+            font-size: 15px;
+        }
+
+        .semi-ultimo{
+            margin-inline: -8.5rem;
+        }
+}
 
 
