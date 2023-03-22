@@ -1,10 +1,5 @@
 @media screen and (max-width: 768px){
 
-        *{
-            margin: 0;
-            padding: 0;
-        }
-
 
         html{
             overflow-x: hidden;
@@ -157,10 +152,6 @@
 
         .semi-ultimo{
             padding-inline: 13rem;
-        }
-
-        .ultimo{
-           
         }
   
 }
