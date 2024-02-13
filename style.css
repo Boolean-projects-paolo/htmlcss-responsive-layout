@@ -499,6 +499,7 @@ main{
     line-height: 2.5;
 }
 
+
 .button-point{
     font-size: 15px;
     padding-inline: 4.5rem;
@@ -516,13 +517,30 @@ main{
     text-align: left;
     color: white;
     display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo-5{
+    display: flex;
+}
+
+.paragraph{
+    display: flex;
+    align-items: center;
 }
 
 .punto{
-    position: relative;
-    bottom: 3px;
     font-size: 20px;
     border-radius: 100%;
+    padding-bottom: 10px;
+    padding-inline: 5px;
+}
+
+.link-privacy{
+    list-style: none;
+    color: white;
 }
 
 .bi-circle-fill{
